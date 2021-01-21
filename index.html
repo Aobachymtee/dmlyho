@@ -197,6 +197,22 @@ function myFunction() {
 </script>
 </center>
 
+<center>
+<h2>Văn mẫu cư xử như con bò</h2>
+<input type="text" value=" mày đang cư xử như một con bò thật sự, vì lúc nào mày cũng nhai lại hết. Không những mày nhai lại trong lúc ăn, lúc ngủ mà cả lúc đi ỉa, lúc đi chịch, lúc nói chuyện nữa. Cả cuộc đời mày sẽ giống như một vòng lặp vô tận, nơi mày chỉ có ba việc là tồn tại, bài tiết và lặp lại những câu nói ngu ngốc mà mày không thể tự nghĩ ra được. Tất cả giá trị mà mày mang lại cho cuộc đời là con số không. Những người khác khi nói thì giống như ăn cây mía, còn mày chỉ là thằng nhai bã mía mà thôi. Rồi dần dần mày sẽ quên đi cách nói chuyện, cái đầu trông như đầu buồi của mày sẽ chỉ còn là một cỗ máy phản xạ có điều kiện mà Ivan Petrovich Pavlov hằng thèm muốn. Nó chỉ biết phun ra những câu văn đã được người ta sử dụng một cách bừa bãi, không quan tâm đến bối cảnh câu chuyện. Người ta có cười vào mặt mày thì mày cũng chỉ biết phun ra những thứ dữ liệu mà mày lưu trữ trong bộ não cũ kĩ bụi bặm dơ bẩn của mày. Rồi đến khi chết các nhà bác học sẽ dùng bộ não mày để nâng cấp cho các máy in giấy vệ sinh đặc biệt, chỉ cần ỉa ra là máy sẽ tự động in ra những câu văn mẫu ngu ngốc mà mày đã từng nói trong cuộc đời trên một tờ giấy vệ sinh. Tất nhiên, cái máy sẽ có hình cái đầu của mày để ghi công cống hiến cho nhân loại, một số thằng biến thái mang tư tưởng sáng tạo sẽ gắn thêm một cái lưỡi bằng nhựa cùng động cơ để lưỡi của mày có thể liếm sạch đít cho họ. Còn thân xác mày, người ta sẽ đem chôn nó cùng với một cái máy phát thanh vĩnh cửu, cứ phát đi phát lại những bài văn mẫu ngu ngốc để tránh việc cái xác quá thèm hơi bã mĩa của mày mà sống dậy." id="vanmau5">
+<button onclick="myFunction()">Copy bài văn mẫu</button>
+
+<script>
+function myFunction() {
+  var copyText = document.getElementById("vanmau5");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copy văn mẫu thành công!");
+}
+</script>
+</center>
+
 </template>
 
 
